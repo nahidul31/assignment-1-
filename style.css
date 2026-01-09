@@ -82,7 +82,7 @@ body {
 
 .btn {
   display: inline-flex;
-  align-items: center; /* vertical center */
+  align-items: center;
   justify-content: center;
   padding: 12px 28px;
   background-color: #469165;
@@ -95,7 +95,7 @@ body {
 }
 .btn-2 {
   display: inline-flex;
-  align-items: center; /* vertical center */
+  align-items: center;
   justify-content: center;
   padding: 11px 27px;
   border: 1px solid white;
@@ -108,6 +108,11 @@ body {
   gap: 8px;
 }
 .btn:hover {
+  background-color: #249955;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.btn-2:hover {
   background-color: #249955;
   transform: translateY(-3px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
@@ -242,8 +247,23 @@ body {
 /* Footer---------------------------------------------------- */
 footer {
   text-align: center;
-  padding: 20px;
-  background-color: #111;
+  padding: 100px;
+  background-color: #001931;
   color: white;
   font-size: 0.9rem;
+  padding-bottom: 20px;
+}
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  padding-bottom: 50px;
+}
+.footer-text {
+  text-align: start;
+  font-size: large;
+}
+.ft-last {
+  margin-top: 20px;
+  color: gray;
 }
