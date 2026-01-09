@@ -81,33 +81,12 @@ body {
   opacity: 0.9;
 }
 
-.card {
-  background-color: white;
-  padding: 25px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-}
-.card-img {
-  width: 80px;
-  height: 80px;
-  background: #bf3636;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 20px;
-  padding: 10px;
-  overflow: hidden;
-}
-.card h3 {
-  margin-bottom: 10px;
-}
-
 /* Solution----------------------------------------------------------------- */
 .solution {
-  background-color: #eef2ff;
+  background-color: white;
   padding: 70px 20px;
-  padding-left: 80px;
+  padding-top: 40px;
+  padding-left: 100px;
   text-align: start;
   display: flex;
   justify-content: center;
@@ -129,7 +108,7 @@ body {
 }
 .solution h2 {
   font-size: 3rem;
-  margin: 0; /* top & bottom gap remove */
+  margin: 0;
   margin-top: 10px;
   margin-bottom: 15px;
   line-height: 1;
@@ -152,9 +131,54 @@ body {
 
 .solution li {
   display: flex;
-  align-items: center; /* vertical center */
+  align-items: center;
 
   margin-bottom: 15px;
+}
+/* Problems---------------------- */
+.problems {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.problems h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  max-width: 630px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+.card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.card-img {
+  width: 70px;
+  height: 70px;
+  background: #f95555;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  padding: 0px;
+  overflow: hidden;
+}
+.card h3 {
+  margin-bottom: 10px;
 }
 
 /* Footer---------------------------------------------------- */
