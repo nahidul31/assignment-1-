@@ -103,6 +103,60 @@ body {
   margin-bottom: 10px;
 }
 
+/* Solution----------------------------------------------------------------- */
+.solution {
+  background-color: #eef2ff;
+  padding: 70px 20px;
+  padding-left: 80px;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+}
+
+#solution-text-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solution-text {
+  /* background-color: #469165; */
+  width: 70%;
+  margin-left: -100px;
+}
+.solution-text h4 {
+  color: #2faa64;
+  font-size: 0.9rem;
+}
+.solution h2 {
+  font-size: 3rem;
+  margin: 0; /* top & bottom gap remove */
+  margin-top: 10px;
+  margin-bottom: 15px;
+  line-height: 1;
+  /* background-color: #2faa64; */
+}
+
+.solution p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: gray;
+}
+
+.solution ul {
+  list-style: none;
+  max-width: 600px;
+  margin: auto;
+  font-weight: bold;
+  gap: 10px;
+}
+
+.solution li {
+  display: flex;
+  align-items: center; /* vertical center */
+
+  margin-bottom: 15px;
+}
+
 /* Footer---------------------------------------------------- */
 footer {
   text-align: center;
